@@ -1,0 +1,133 @@
+#contenido{
+
+width:1179px;
+height:2050px;
+ background-image:url(img/fondo.jpg); 
+}
+a{
+font-size: 20px;
+font-family: 'Bangers', cursive;
+text-decoration: none;
+color: red;
+text-shadow:4px  4px 20px black;
+}
+a:hover{
+
+	font-size: 22px;
+font-family: 'Bangers', cursive;
+color: black;
+text-shadow:4px  4px 20px red;
+
+}
+#titulo{
+
+width:1179px;
+height:135px;
+/*background-color: green;*/
+text-align: center;
+font-size: 80px;
+font-family: 'Bangers', cursive;
+padding-top: 5px;
+color: yellow;
+text-shadow:4px  4px 20px red;
+}
+
+#spider{
+width:100px;
+height:100px;
+
+}
+
+hr{
+border: 1px solid yellow;
+	
+	width: 1100px;
+}
+
+.cajafotos{
+width:1179px;
+height:250px;
+
+/*background-color: red;*/
+}
+.cajafotojuego{
+
+margin-left: 140px;
+width:200px;
+height:250px;
+/*background-color: blue;*/
+float: left;
+margin-top: 10px;
+}
+.cajafotojuego:hover{
+
+margin-left: 140px;
+width:200px;
+height:250px;
+/*background-color: blue;*/
+float: left;
+filter: grayscale(80);
+margin-top: 10px;
+}
+.texto{
+
+margin-left: 140px;
+width:200px;
+height:70px;
+padding-top: 30px;
+background-color: #58FF55;
+float: left;
+text-align: center;
+border-radius:  20px 20px 20px 20px;
+margin-top: 10px;
+filter: drop-shadow(1px 4px 3px black);
+}
+
+
+.descripcion{
+width:1179px;
+height:100px;
+
+/*background-color: purple;*/
+
+}
+
+#lokigif{
+    /*background-color: #EBE9EA;*/
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    float: left;
+    
+    /* para mantener visible un elemento en todo momento aunque se haga scroll en la página */
+    position: fixed;
+    height: 150px;
+    min-height: 115px;
+    margin-top:  300px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    z-index: 100
+
+}
+
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img #lokigif{
+      height: 50px;
+      width: 50px;
+}
+
+
+
+#lokiimg{
+
+    height: 150px;
+z-index: 100
+    width: 200px;
+
+}

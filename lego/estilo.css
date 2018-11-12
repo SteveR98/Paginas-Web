@@ -1,0 +1,241 @@
+
+
+body{
+
+background-image: url(img/fondobody.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+#contenedor{
+
+width:1200px;
+height:1550px;
+background-color: gold;
+margin: 0 auto;
+
+}
+
+#banner{
+	
+	background-image: url(img/banner.jpg);
+width:1000px;
+height:150px;
+background-color: red;
+float: left;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#logo{
+width:200px;
+height:150px;
+background-color: green;
+float: left;
+}
+#contenido{
+
+width:1200px;
+height:1400px;
+background-color: blue;
+
+}
+
+#menu{
+
+padding-left: 180px;
+width:1020px;
+height:80px;
+background-image: url(img/bannerfondo.jpg);
+position: absolute;
+top: 155px;
+}
+
+ul{
+			list-style-type: none;
+			margin:0px;
+			padding:0px;
+		}
+
+		li{
+			display:block;
+				width:230px;
+			margin: 10px;
+				height:60px;
+			
+			float:left;
+		}
+
+		.classmenu{
+			font-size: 25px;
+		border-radius:  5px 15px 5px 15px;
+		width:150px;
+		height:50px;
+
+		font-family: 'Bangers', cursive;
+		background-color: yellow;
+		float: left;
+		text-shadow:4px  4px 20px black;
+		text-decoration:none;
+		color: red;
+
+		padding-left: 80px;
+		padding-top: 10px;
+			}
+
+		 .classmenu:hover{  /*Es opcional*/
+			text-decoration:none;
+			border-radius: 5px 15px 5px 15px;
+			width:150px;
+			height:50px;
+			background-color: #F4F8B5;
+			font-family: 'Bangers', cursive;
+			font-size: 25px;
+			box-shadow: 1px 4px 10px yellow;
+			text-shadow:4px  4px 20px yellow;
+			color: black;
+			float: left;
+
+			padding-left: 80px;
+		padding-top: 10px;
+		
+		}
+
+		#pagestamos{
+				text-decoration:none;
+			border-radius: 5px 15px 5px 15px;
+			width:150px;
+			height:50px;
+			background-color: #F4F8B5;
+			font-family: 'Bangers', cursive;
+			font-size: 25px;
+			box-shadow: 1px 4px 10px red;
+			text-shadow:4px  4px 20px red;
+			color: black;
+			float: left;
+
+			padding-left: 80px;
+		padding-top: 10px;
+		}
+
+		#juegos{
+			font-size: 25px;
+		border-radius:  15px 15px 3px 3px;
+		width:150px;
+		color: red;
+		height:50px;
+		font-family: 'Bangers', cursive;
+		background-color: yellow;
+		float: left;
+		text-shadow:4px  4px 20px black;
+		text-decoration:none;
+			padding-left: 80px;
+		padding-top: 10px;
+
+		}
+	#juegos:hover{
+		text-decoration:none;
+			border-radius:  15px 15px 3px 3px;
+			width:150px;
+			height:50px;
+			background-color: #F4F8B5;
+			font-family: 'Bangers', cursive;
+			font-size: 25px;
+			box-shadow: 1px 4px 10px yellow;
+			text-shadow:4px  4px 20px yellow;
+			color: black;
+			float: left;
+
+			padding-left: 80px;
+		padding-top: 10px;
+
+		}
+		/*ESTE COMANDO HACE QUE NO SE MUESTRE LA LISTA DEL UL*/
+
+		li ul{
+			display:none;
+		}
+
+		/*SI PASAS EL PUNTERO SOBRE LA LISTA QUE TIENE EL UL SE DESPLEGARA EL MENU*/
+		
+
+		li:hover ul{
+			display:block;
+		}
+
+		/*DETALLES DE EL DESPLEGABLE */
+		li ul .classmenu{
+
+			background-color: black; 
+			color:yellow; 
+			border-radius: 0px 0px 0px 0px;
+			border:solid 2px yellow;
+			text-shadow:4px  4px 20px yellow;
+		}
+		/*DETALLES DE EL DESPLEGABLE AL PASAR EL PUNTERO */
+		
+		li ul .classmenu:hover{  
+			border-radius: 0px 0px 0px 0px;
+			border:solid 2px yellow;
+			text-shadow:4px  4px 20px yellow;
+			background-color: grey;
+			color:white;
+			text-decoration:none;
+		}
+
+.frame{
+
+	margin-top:39px;
+position: static;
+width:1200px;
+height:1172px;
+/*background-color: purple;*/
+float: left;
+}
+
+.letraboton{
+text-decoration:none;
+width:150px;
+height:40px;
+color: red;
+font-family: 'Bangers', cursive;
+}
+
+
+
+
+
+
+
+#footer{
+	
+float: left;
+width:1200px;
+height:115px;
+background-image: url(img/footerfondo.jpg);
+padding-top: 25px;
+}
+
+#enlace1{
+
+margin-left: 159px;
+font-size: 35px;
+text-shadow:4px  4px 5px black;
+color: white;
+text-decoration: none;
+font-family: 'Bangers', cursive;
+
+}
+#enlace1:hover{
+
+font-family: 'Bangers', cursive;
+font-size: 35px;
+text-shadow:4px  4px 5px black;
+color: yellow;
+text-decoration: underline;
+
+}
+
+

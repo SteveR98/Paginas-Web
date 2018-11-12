@@ -1,0 +1,337 @@
+<!DOCTYPE html >
+
+<head>
+
+<html>
+
+<head>
+
+	<title>Página Álvaro Esteve</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+	<script src="javascript.js"></script>
+       <link rel="icon" type="image/ico" href="log.ico" /
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="description" content="Página Oficial de Álvaro Esteve, donde se encuentran las redes para poder contactar, e información ">
+
+<meta name="Author" content="Álvaro Esteve">
+
+<meta name="Language" content="Spanish"> 
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<header>
+
+	
+
+	<h1>ÁLVARO ESTEVE</h1>
+
+
+
+<input id="boton" type="button" value="Contactar" onclick="mostrarContacto();">
+
+
+
+<div id="cajaContacto">
+
+	
+
+
+
+
+
+<form method="post" action="enviar.php">
+
+
+
+<fieldset>
+
+	<legend>DATOS PERSONALES</legend>
+
+<div id="uno" >
+
+		<p class="parrafo"><label for="nombreUsuario">Nombre:</label>
+
+			<input class="diidid" onfocus="cambiaColor(this)" onblur="cambiaColor2(this)" maxlength="25" required="required" type="text" name="nombre"></p>
+
+		
+
+			<p class="parrafo"><label for="nombreUsuario">Email:</label>
+
+			<input class="diidid" onfocus="cambiaColor(this)" onblur="cambiaColor2(this)" required="required"  type="email" name="email"></p>
+
+			
+
+			<p class="parrafo">
+
+			<label for="provincia" required="required">Ciudad:</label>
+
+			<select name="ciudad" size="1" >
+
+            <option value='null'>Selecciona</option>
+
+            <option value='A Coruña' >A Coruña</option>
+
+            <option value='álava'>Álava</option>
+
+            <option value='Albacete' >Albacete</option>
+
+            <option value='Alicante'>Alicante</option>
+
+            <option value='Almería' >Almería</option>
+
+            <option value='Asturias' >Asturias</option>
+
+            <option value='ávila' >Ávila</option>
+
+            <option value='Badajoz' >Badajoz</option>
+
+            <option value='Barcelona'>Barcelona</option>
+
+            <option value='Burgos' >Burgos</option>
+
+            <option value='Cáceres' >Cáceres</option>
+
+            <option value='Cádiz' >Cádiz</option>
+
+            <option value='Cantabria' >Cantabria</option>
+
+            <option value='Castellón' >Castellón</option>
+
+            <option value='Ceuta' >Ceuta</option>
+
+            <option value='Ciudad Real' >Ciudad Real</option>
+
+            <option value='Córdoba' >Córdoba</option>
+
+            <option value='Cuenca' >Cuenca</option>
+
+            <option value='Gerona' >Gerona</option>
+
+            <option value='Girona' >Girona</option>
+
+            <option value='Las Palmas' >Las Palmas</option>
+
+            <option value='Granada' >Granada</option>
+
+            <option value='Guadalajara' >Guadalajara</option>
+
+            <option value='Guipúzcoa' >Guipúzcoa</option>
+
+            <option value='Huelva' >Huelva</option>
+
+            <option value='Huesca' >Huesca</option>
+
+            <option value='Jaén' >Jaén</option>
+
+            <option value='La Rioja' >La Rioja</option>
+
+            <option value='León' >León</option>
+
+            <option value='Lleida' >Lleida</option>
+
+            <option value='Lugo' >Lugo</option>
+
+            <option value='Madrid' >Madrid</option>
+
+            <option value='Malaga' >Málaga</option>
+
+            <option value='Mallorca' >Mallorca</option>
+
+            <option value='Melilla' >Melilla</option>
+
+            <option value='Murcia' >Murcia</option>
+
+            <option value='Navarra' >Navarra</option>
+
+            <option value='Orense' >Orense</option>
+
+            <option value='Palencia' >Palencia</option>
+
+            <option value='Pontevedra'>Pontevedra</option>
+
+            <option value='Salamanca'>Salamanca</option>
+
+            <option value='Segovia' >Segovia</option>
+
+            <option value='Sevilla' >Sevilla</option>
+
+            <option value='Soria' >Soria</option>
+
+            <option value='Tarragona' >Tarragona</option>
+
+            <option value='Tenerife' >Tenerife</option>
+
+            <option value='Teruel' >Teruel</option>
+
+            <option value='Toledo' >Toledo</option>
+
+            <option value='Valencia' >Valencia</option>
+
+            <option value='Valladolid' >Valladolid</option>
+
+            <option value='Vizcaya' >Vizcaya</option>
+
+            <option value='Zamora' >Zamora</option>
+
+            <option value='Zaragoza'>Zaragoza</option>
+
+          </select>
+
+    </p>
+
+
+
+</div>
+
+  <p class="parrafo">  Comentanos lo que quieras:<br>
+
+
+
+   <br> <textarea onfocus="cambiaColor(this)" onblur="cambiaColor2(this)" name="comentario" id="mensaje" placeholder="Escriba su comentario..."></textarea>
+
+
+
+  </p>
+
+
+
+
+
+</form>
+
+
+
+
+
+<input type="submit"  id="botonenvio" >
+
+<input type="reset"   id="botonreinicio">
+
+
+
+</div>
+
+
+
+
+
+	
+
+</header>
+
+<section id="cajaweb">
+
+	
+
+<div class="cajacurri"><img class="imsssdd" src="ca.png"><a class="enlaceeeee" title="Descargar Currículum" href="curriculumalvaroesteve.pdf" download="CurrículumÁlvaroEsteve" target="_blank"><p class="des">Currículum</p></a></div>
+
+
+
+<div class="cajacurri2"><img class="imsssdd" src="tlf.png"><a class="enlaceeeee" title="Teléfono a Álvaro" onclick="funciiiio()"><p class="des">Teléfono</p></a></div>
+
+
+
+<div class="cajacurri3"><img id="imsssddw" class="imsssdd" src="mai.png"><a class="enlaceeeee" title="Enviar Correo"  href="mailto:alvaroesteveatance@gmail.com"><p class="des2">Correo</p></a></div>
+
+
+
+
+
+	
+
+
+
+<div id="cajaredes">
+
+	
+
+	<ul id="li1">
+
+<li class="li"><a title="Ir a Instagram" class="un" target="_blank" href="https://www.instagram.com/alvaroe98/?hl=es">INSTAGRAM</a></li>
+
+<li class="li"><a title="Ir a Facebook" class="un" target="_blank" href="https://www.facebook.com/alvaro.esteve.982">FACEBOOK</a></li>
+
+</ul>
+
+<br><br>
+
+<hr>
+
+
+
+	<ul id="li2">
+
+<li class="li"><a title="Ir a Twitter" class="un" target="_blank" href="https://twitter.com/alvaroe98?lang=es">TWITTER</li>
+
+<li class="li"><a title="Ir a LinkedIn" class="un" target="_blank" href="https://es.linkedin.com/in/alvaro-esteve-atance">LINKEDIN</a></li>
+
+<li class="li"><a title="Ir a Github" class="un" target="_blank" href="https://github.com/SteveR98">GITHUB</a></li>
+
+</ul>
+
+
+
+</div>
+
+<footer><p class="footertexto" >COPYRIGHT <span class="un ratoncillo"><a id="various1" href="#inline1" ></a>Álvaroesteve.com  2018©</span> <img id="imgss" src="bandera.png">
+
+
+
+
+
+
+
+
+
+<br>
+
+<p class="miau" >Página desarrollada por Álvaro Esteve ©</p>
+
+</p>
+
+
+
+
+
+</footer>
+
+
+
+</section>
+
+
+
+
+
+
+
+</body>
+
+</html>

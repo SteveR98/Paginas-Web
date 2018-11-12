@@ -1,0 +1,2163 @@
+/*------------------------------ORDENADOR----------------------------------------*/
+@media all and (min-width:991px) { 
+
+
+body{
+
+	background-color: black;
+
+}
+
+header{
+
+width: 100%;
+
+height: 70px;
+
+background-color: rgba(95, 106, 106 ,0.7);
+
+}
+
+
+
+h1{
+
+	text-align: center;
+
+	font-size: 35pt;
+
+	color: white;
+
+	font-family: 'Permanent Marker', cursive;
+
+		transition: 1s all;
+
+
+
+}
+
+h1:hover{
+
+	color: grey;
+
+cursor: default;
+
+
+
+}
+
+footer{
+
+	width:800px;
+
+	/*background-color: red;*/
+
+	height: 60px;
+
+	position: absolute;
+
+	top: 571px;
+
+}
+
+
+
+#cajaweb{
+
+	margin: 0 auto;
+
+	width:800px;
+
+	/*background-color: gold;*/
+
+	height: 530px;
+
+}
+
+.cajacurri{
+
+	position: absolute;
+
+	top: 200px;
+
+	/*background-color: gold;*/
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+
+
+.cajacurri2{
+
+	position: absolute;
+
+	top: 200px;
+
+	margin-left: 310px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri2:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+.cajacurri3{
+
+	position: absolute;
+
+	top: 200px;
+
+	margin-left: 630px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri3:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+.des2{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 130px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des2:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.imsssdd{
+
+margin: 3px;
+
+
+
+}
+
+
+
+#imsssddw{
+
+margin-top: 8px;
+
+
+
+}
+
+
+
+
+
+.des{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 90px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.enlaceeeee{
+
+	color: white;
+
+}
+
+
+
+
+
+#cajaredes{
+
+	width:800px;
+
+	/*background-color: grey;*/
+
+	height:130px;
+
+	position: absolute;
+
+	top: 400px;
+
+}
+
+.footertexto{
+
+	font-size: 15pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 240px;
+
+}
+
+
+
+.li{
+
+
+
+		color: white;
+
+font-family: 'Kalam', cursive;
+
+	list-style: none;
+
+	float: left;
+
+	margin-left: 40px;
+
+	transition: 1s all;
+
+}
+
+.enlaceslis{
+
+
+
+}
+
+.enlaceslis:hover{
+
+text-decoration: underline;
+
+}
+
+
+
+#li1{
+
+		margin-left: 220px;
+
+
+
+}
+
+hr{
+
+	background-color: white;
+
+	height: 2px;
+
+	border: 0px;
+
+}
+
+
+
+#li2{
+
+	margin-left: 170px;
+
+	float: left;
+
+}
+
+#boton{
+
+	position: absolute;
+
+	top: 50px;
+
+ 	margin-left: 75%;
+
+font-family: 'Kalam', cursive;
+
+background-color: #f1f1f1;
+
+    color: black;
+
+    font-size: 16px;
+
+    padding: 5px 30px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    transition: 0.6s ;
+
+
+
+}
+
+#boton:hover{
+
+	cursor: pointer;
+
+	 background-color: black;
+
+    color: white;
+
+}
+
+
+
+#cajaContacto{
+
+	position: absolute;
+
+	z-index: 2;
+
+	display: none;
+
+	width: 350px;
+
+	height: 400px;
+
+	top: 150px;
+
+ 	margin-left: 76%;
+
+ 	/*background-color: red;*/
+
+ 	transition: 1s all;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.un {
+
+	text-decoration: none;
+
+transition: 1s all;
+
+  display: inline-block;
+
+  color: white;
+
+}
+
+
+
+.un:after {
+
+  content: '';
+
+  width: 0px;
+
+  height: 1px;
+
+  display: block;
+
+  background: white;
+
+  transition: 1s;
+
+}
+
+
+
+.un:hover:after {
+
+  width: 100%;
+
+}
+
+
+
+
+
+#imgss{
+
+width:50px;
+
+height:50px ;
+
+transform: rotate(340deg);
+
+
+
+}
+
+
+
+
+
+.ratoncillo{
+
+cursor: default;
+
+}
+
+.miau{
+
+	font-size: 12pt;
+
+	color: grey;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 280px;
+
+}
+
+
+
+.miau2{
+
+	font-size: 13pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 10px;
+
+}
+
+
+
+/*FORMULARIOS*/
+
+
+
+
+
+
+
+
+
+textarea{
+
+	resize: none;
+
+}
+
+#datos{
+
+	margin-left: 300px;
+
+	margin-top: 19px;
+
+	width: 300x;
+
+}
+
+#mensaje{
+
+	width:300px ;
+
+	height:40px ;
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 14pt;
+
+}
+
+.diidid{
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 14pt;
+
+}
+
+
+
+fieldset{
+
+	color: white;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+		width: 300px;
+
+		font-family: 'Kalam', cursive;
+
+	height: 350px;
+
+}
+
+
+
+/*h1{
+
+	color: yellow;
+
+	margin-top: 0px;
+
+	margin-bottom:  10px;
+
+
+
+	font-size: 30px;
+
+text-align: center;
+
+font-family:back;
+
+
+
+}
+
+h2{
+
+	color: black;
+
+	margin-top: 0px;
+
+	margin-bottom:  10px;
+
+
+
+	font-size: 30px;
+
+text-align: center;
+
+font-family:back;
+
+
+
+}
+
+
+
+hr{
+
+margin-top: 0px;
+
+width: 750px;
+
+
+
+}
+
+
+
+p{
+
+	color: white;
+
+		margin-top: -2px;
+
+	margin-left: 15px;
+
+}*/
+
+.parrafo{
+
+font-family: 'Kalam', cursive;
+
+	font-size: 12pt;
+
+text-align: center;
+
+
+
+}
+
+
+
+
+
+#botonenvio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 80px;
+
+   background-color: #4CAF50;
+
+    color: white;
+
+    width:80px ;
+
+    height:40px;
+
+}
+
+
+
+#botonenvio:hover {
+
+    background-color: green;
+
+    color: white;
+
+       cursor:pointer;
+
+}
+
+
+
+#botonreinicio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 25px;
+
+   background-color: red;
+
+    color: white;
+
+     width:80px ;
+
+    height:40px;
+
+}
+
+
+
+#botonreinicio:hover {
+
+    background-color: orange;
+
+   cursor:pointer;
+
+    color: white;
+
+	}
+}
+
+
+
+/*--------------------------TABLET---------------------------------------*/
+
+@media all and (max-width: 990px) and (min-width: 481px) { 
+body{
+
+	background-color: black;
+
+}
+
+header{
+
+width: 100%;
+
+height: 70px;
+
+background-color: rgba(95, 106, 106 ,0.7);
+
+}
+
+
+
+h1{
+
+	text-align: center;
+
+	font-size: 35pt;
+
+	color: white;
+
+	font-family: 'Permanent Marker', cursive;
+
+		transition: 1s all;
+
+
+
+}
+
+h1:hover{
+
+	color: grey;
+
+cursor: default;
+
+
+
+}
+
+footer{
+
+	width:800px;
+
+	/*background-color: red;*/
+
+	height: 60px;
+
+	position: absolute;
+
+	top: 571px;
+
+}
+
+
+
+#cajaweb{
+
+	margin: 0 auto;
+
+	width:800px;
+
+	/*background-color: gold;*/
+
+	height: 530px;
+
+}
+
+.cajacurri{
+
+	position: absolute;
+
+	top: 200px;
+
+	/*background-color: gold;*/
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+
+
+.cajacurri2{
+
+	position: absolute;
+
+	top: 200px;
+
+	margin-left: 310px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri2:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+.cajacurri3{
+
+	position: absolute;
+
+	top: 200px;
+
+	margin-left: 630px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri3:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+.des2{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 130px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des2:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.imsssdd{
+
+margin: 3px;
+
+
+
+}
+
+
+
+#imsssddw{
+
+margin-top: 8px;
+
+
+
+}
+
+
+
+
+
+.des{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 90px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.enlaceeeee{
+
+	color: white;
+
+}
+
+
+
+
+
+#cajaredes{
+
+	width:800px;
+
+	/*background-color: grey;*/
+
+	height:130px;
+
+	position: absolute;
+
+	top: 400px;
+
+}
+
+.footertexto{
+
+	font-size: 15pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 240px;
+
+}
+
+
+
+.li{
+
+
+
+		color: white;
+
+font-family: 'Kalam', cursive;
+
+	list-style: none;
+
+	float: left;
+
+	margin-left: 40px;
+
+	transition: 1s all;
+
+}
+
+.enlaceslis{
+
+
+
+}
+
+.enlaceslis:hover{
+
+text-decoration: underline;
+
+}
+
+
+
+#li1{
+
+		margin-left: 220px;
+
+
+
+}
+
+hr{
+
+	background-color: white;
+
+	height: 2px;
+
+	border: 0px;
+
+}
+
+
+
+#li2{
+
+	margin-left: 170px;
+
+	float: left;
+
+}
+
+#boton{
+
+	position: absolute;
+
+	top: 50px;
+
+ 	margin-left: 75%;
+
+font-family: 'Kalam', cursive;
+
+background-color: #f1f1f1;
+
+    color: black;
+
+    font-size: 16px;
+
+    padding: 5px 30px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    transition: 0.6s ;
+
+
+
+}
+
+#boton:hover{
+
+	cursor: pointer;
+
+	 background-color: black;
+
+    color: white;
+
+}
+
+
+
+#cajaContacto{
+
+	position: absolute;
+
+	z-index: 2;
+
+	display: none;
+
+	width: 350px;
+
+	height: 400px;
+
+	top: 150px;
+
+ 	margin-left: 76%;
+
+ 	/*background-color: red;*/
+
+ 	transition: 1s all;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.un {
+
+	text-decoration: none;
+
+transition: 1s all;
+
+  display: inline-block;
+
+  color: white;
+
+}
+
+
+
+.un:after {
+
+  content: '';
+
+  width: 0px;
+
+  height: 1px;
+
+  display: block;
+
+  background: white;
+
+  transition: 1s;
+
+}
+
+
+
+.un:hover:after {
+
+  width: 100%;
+
+}
+
+
+
+
+
+#imgss{
+
+width:50px;
+
+height:50px ;
+
+transform: rotate(340deg);
+
+
+
+}
+
+
+
+
+
+.ratoncillo{
+
+cursor: default;
+
+}
+
+.miau{
+
+	font-size: 12pt;
+
+	color: grey;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 280px;
+
+}
+
+
+
+.miau2{
+
+	font-size: 13pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 10px;
+
+}
+
+
+
+/*FORMULARIOS*/
+
+
+
+
+
+
+
+
+
+textarea{
+
+	resize: none;
+
+}
+
+#datos{
+
+	margin-left: 300px;
+
+	margin-top: 19px;
+
+	width: 300x;
+
+}
+
+#mensaje{
+
+	width:300px ;
+
+	height:40px ;
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 14pt;
+
+}
+
+.diidid{
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 14pt;
+
+}
+
+
+
+fieldset{
+
+	color: white;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+		width: 300px;
+
+		font-family: 'Kalam', cursive;
+
+	height: 350px;
+
+}
+
+
+
+/*h1{
+
+	color: yellow;
+
+	margin-top: 0px;
+
+	margin-bottom:  10px;
+
+
+
+	font-size: 30px;
+
+text-align: center;
+
+font-family:back;
+
+
+
+}
+
+h2{
+
+	color: black;
+
+	margin-top: 0px;
+
+	margin-bottom:  10px;
+
+
+
+	font-size: 30px;
+
+text-align: center;
+
+font-family:back;
+
+
+
+}
+
+
+
+hr{
+
+margin-top: 0px;
+
+width: 750px;
+
+
+
+}
+
+
+
+p{
+
+	color: white;
+
+		margin-top: -2px;
+
+	margin-left: 15px;
+
+}*/
+
+.parrafo{
+
+font-family: 'Kalam', cursive;
+
+	font-size: 12pt;
+
+text-align: center;
+
+
+
+}
+
+
+
+
+
+#botonenvio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 80px;
+
+   background-color: #4CAF50;
+
+    color: white;
+
+    width:80px ;
+
+    height:40px;
+
+}
+
+
+
+#botonenvio:hover {
+
+    background-color: green;
+
+    color: white;
+
+       cursor:pointer;
+
+}
+
+
+
+#botonreinicio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 25px;
+
+   background-color: red;
+
+    color: white;
+
+     width:80px ;
+
+    height:40px;
+
+}
+
+
+
+#botonreinicio:hover {
+
+    background-color: orange;
+
+   cursor:pointer;
+
+    color: white;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------MOVIL-----------------------------------------------------------*/
+
+@media all and (max-width: 480px) {
+
+
+body{
+
+	background-color: black;
+
+}
+
+header{
+
+width: 101%;
+
+height: 80px;
+
+background-color: rgba(95, 106, 106 ,0.7);
+
+}
+
+
+
+h1{
+
+	text-align: center;
+
+	font-size: 25pt;
+margin: 0px;
+	color: white;
+
+	font-family: 'Permanent Marker', cursive;
+
+		transition: 1s all;
+
+
+
+}
+
+h1:hover{
+
+	color: grey;
+
+cursor: default;
+
+
+
+}
+
+footer{
+
+	width:432px;
+
+	/*background-color: red;*/
+
+	height: 75px;
+
+	position: absolute;
+
+	top: 595px;
+
+}
+
+
+
+#cajaweb{
+
+	margin: 0 auto;
+
+	width:100%;
+
+	/*background-color: blue;*/
+
+	height: 580px;
+
+}
+
+.cajacurri{
+
+	position: absolute;
+
+	top: 120px;
+
+	/*background-color: gold;*/
+margin-left: 20px;
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+
+
+.cajacurri2{
+
+	position: absolute;
+
+	top: 220px;
+
+	margin-left: 20px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri2:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+
+
+
+
+.cajacurri3{
+
+	position: absolute;
+
+	top: 320px;
+
+	margin-left: 20px;
+
+	width:210px;
+
+	border-radius: 15px;
+
+	height: 90px;
+
+	transition: 0.5s;
+
+}
+
+
+
+.cajacurri3:hover{
+
+	border: solid grey 2px;
+
+	border-radius: 6px;
+
+	height: 90px;
+
+}
+
+.des2{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 130px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des2:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.imsssdd{
+
+margin: 3px;
+
+
+
+}
+
+
+
+#imsssddw{
+
+margin-top: 8px;
+
+
+
+}
+
+
+
+
+
+.des{
+
+	position: absolute;
+
+	top: 15px;
+
+	margin-left: 90px;
+
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.des:hover{
+
+	text-decoration: underline;
+
+	cursor: pointer;
+
+}
+
+
+
+.enlaceeeee{
+
+	color: white;
+
+}
+
+
+
+
+
+#cajaredes{
+
+	width:435px;
+
+	background-color: grey;
+
+	height:130px;
+
+	position: absolute;
+
+	top: 450px;
+
+}
+
+.footertexto{
+
+	font-size: 12pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+margin-top: 0px;
+margin-left:70px;
+margin-bottom: 0px;
+
+}
+
+
+
+.li{
+
+
+
+		color: white;
+
+font-family: 'Kalam', cursive;
+
+	list-style: none;
+
+	float: left;
+
+	margin-left: 40px;
+
+	transition: 1s all;
+
+}
+
+.enlaceslis{
+
+
+
+}
+
+.enlaceslis:hover{
+
+text-decoration: underline;
+
+}
+
+
+
+#li1{
+
+		margin-left:40px;
+
+
+
+}
+
+hr{
+
+	background-color: white;
+
+	height: 2px;
+
+	border: 0px;
+
+}
+
+
+
+#li2{
+
+	margin-left: 10px;
+
+	float: left;
+
+}
+
+#boton{
+
+	position: absolute;
+
+	top: 55px;
+
+ 	margin-left: 45%;
+
+font-family: 'Kalam', cursive;
+
+background-color: #f1f1f1;
+
+    color: black;
+
+    font-size: 16px;
+
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    transition: 0.6s ;
+width: 80px;
+height: 30px;
+
+
+}
+
+#boton:hover{
+
+	cursor: pointer;
+
+	 background-color: black;
+
+    color: white;
+
+}
+
+
+
+#cajaContacto{
+
+	position: absolute;
+
+	z-index: 2;
+
+	display: none;
+
+	width: 100px;
+
+	height: 150px;
+	top:85px;
+
+ 	margin-left: 220px;
+
+ 	/*background-color: red;*/
+
+ 	transition: 1s all;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.un {
+
+	text-decoration: none;
+
+transition: 1s all;
+
+  display: inline-block;
+
+  color: white;
+
+}
+
+
+
+.un:after {
+
+  content: '';
+
+  width: 0px;
+
+  height: 1px;
+
+  display: block;
+
+  background: white;
+
+  transition: 1s;
+
+}
+
+
+
+.un:hover:after {
+
+  width: 100%;
+
+}
+
+
+
+
+
+#imgss{
+
+width:30px;
+
+height:30px ;
+
+transform: rotate(340deg);
+
+
+
+}
+
+
+
+
+
+.ratoncillo{
+
+cursor: default;
+
+}
+
+.miau{
+
+	font-size: 12pt;
+
+	color: grey;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 50px;
+margin-top: 0px;
+
+}
+
+
+
+.miau2{
+
+	font-size: 13pt;
+
+	color: white;
+
+font-family: 'Kalam', cursive;
+
+margin-left: 10px;
+
+}
+
+
+
+/*FORMULARIOS*/
+
+
+
+
+
+
+
+
+
+textarea{
+
+	resize: none;
+
+}
+
+#datos{
+
+	margin-left: 150px;
+
+	margin-top: 19px;
+
+	width: 300x;
+
+}
+
+#mensaje{
+
+	width:150px ;
+
+	height:20px ;
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 10pt;
+
+}
+
+.diidid{
+
+	font-family: 'Kalam', cursive;
+
+	font-size: 10pt;
+
+}
+
+
+
+fieldset{
+
+	color: white;
+
+	font-size:15px;
+
+	font-weight: bold;
+
+		width: 160px;
+
+		font-family: 'Kalam', cursive;
+
+	height: 340px;
+
+}
+
+
+.parrafo{
+
+font-family: 'Kalam', cursive;
+
+	font-size: 12pt;
+
+text-align: center;
+
+margin-bottom: 0px;
+
+
+}
+
+
+
+
+
+#botonenvio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 10px;
+
+   background-color: #4CAF50;
+
+    color: white;
+
+    width:50px ;
+
+    height:25px;
+
+}
+
+
+
+#botonenvio:hover {
+
+    background-color: green;
+
+    color: white;
+
+       cursor:pointer;
+
+}
+
+
+
+#botonreinicio {
+
+	font-family: 'Kalam', cursive;
+
+    -webkit-transition-duration: 0.4s; 
+
+    transition-duration: 0.4s;
+
+    float: left;
+
+display: block;
+
+margin-left: 10px;
+
+   background-color: red;
+
+    color: white;
+
+      width:80px ;
+
+    height:25px;
+
+}
+
+
+
+#botonreinicio:hover {
+
+    background-color: orange;
+
+   cursor:pointer;
+
+    color: white;
+
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
