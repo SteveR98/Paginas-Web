@@ -18,7 +18,14 @@ background-color: rgba(95, 106, 106 ,0.7);
 
 }
 
-
+#cajatweet{
+width: 225px;
+height: 310px;
+/*background-color: red;*/
+margin-left: 5%;
+position: absolute;
+top:150px;
+}
 
 h1{
 
@@ -574,70 +581,6 @@ fieldset{
 
 
 
-/*h1{
-
-	color: yellow;
-
-	margin-top: 0px;
-
-	margin-bottom:  10px;
-
-
-
-	font-size: 30px;
-
-text-align: center;
-
-font-family:back;
-
-
-
-}
-
-h2{
-
-	color: black;
-
-	margin-top: 0px;
-
-	margin-bottom:  10px;
-
-
-
-	font-size: 30px;
-
-text-align: center;
-
-font-family:back;
-
-
-
-}
-
-
-
-hr{
-
-margin-top: 0px;
-
-width: 750px;
-
-
-
-}
-
-
-
-p{
-
-	color: white;
-
-		margin-top: -2px;
-
-	margin-left: 15px;
-
-}*/
-
 .parrafo{
 
 font-family: 'Kalam', cursive;
@@ -731,9 +674,9 @@ margin-left: 25px;
 
 
 
-/*--------------------------TABLET---------------------------------------*/
+/*--------------------------TABLET--------------------------------------------------*/
 
-@media all and (max-width: 990px) and (min-width: 481px) { 
+@media all and (max-width: 990px) and (min-width:600px) { 
 body{
 
 	background-color: black;
@@ -842,6 +785,7 @@ footer{
 
 
 
+
 .cajacurri2{
 
 	position: absolute;
@@ -1306,69 +1250,6 @@ fieldset{
 
 
 
-/*h1{
-
-	color: yellow;
-
-	margin-top: 0px;
-
-	margin-bottom:  10px;
-
-
-
-	font-size: 30px;
-
-text-align: center;
-
-font-family:back;
-
-
-
-}
-
-h2{
-
-	color: black;
-
-	margin-top: 0px;
-
-	margin-bottom:  10px;
-
-
-
-	font-size: 30px;
-
-text-align: center;
-
-font-family:back;
-
-
-
-}
-
-
-
-hr{
-
-margin-top: 0px;
-
-width: 750px;
-
-
-
-}
-
-
-
-p{
-
-	color: white;
-
-		margin-top: -2px;
-
-	margin-left: 15px;
-
-}*/
 
 .parrafo{
 
@@ -1447,6 +1328,10 @@ margin-left: 25px;
     height:40px;
 
 }
+#cajatweet{
+display: none;
+}
+
 
 
 
@@ -1484,7 +1369,7 @@ margin-left: 25px;
 
 /*--------------------------MOVIL-----------------------------------------------------------*/
 
-@media all and (max-width: 480px) {
+@media only screen and (max-width: 600px)  {
 
 
 body{
@@ -1545,6 +1430,9 @@ footer{
 
 }
 
+#cajatweet{
+display: none;
+}
 
 
 #cajaweb{
@@ -1823,14 +1711,16 @@ hr{
 	float: left;
 
 }
-
+html{
+	width: 435px;
+}
 #boton{
 
 	position: absolute;
 
 	top: 55px;
 
- 	margin-left: 45%;
+ 	margin-left: 35%;
 
 font-family: 'Kalam', cursive;
 
@@ -1850,7 +1740,6 @@ background-color: #f1f1f1;
     text-align: center;
 
     transition: 0.6s ;
-width: 80px;
 height: 30px;
 
 
@@ -1973,7 +1862,7 @@ cursor: default;
 
 font-family: 'Kalam', cursive;
 
-margin-left: 50px;
+margin-left: 70px;
 margin-top: 0px;
 
 }
